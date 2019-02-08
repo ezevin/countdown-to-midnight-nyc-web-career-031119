@@ -9,7 +9,7 @@ def countdown(number)
 end
 
 def countdown_with_sleep(number)
-  runtime = Benchmark.measure
+  
   while number > 0 
   puts "#{number} SECOND(S)!"
   number -= 1 
